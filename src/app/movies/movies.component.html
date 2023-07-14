@@ -1,0 +1,11 @@
+<!-- movies -->
+    <div class="flex flex-col h-[720px] w-[280px] bg-white items-center">
+        <!-- search -->
+        <h1 class="text-indigo-600 font-bold text-3xl"> Movies_</h1>
+        <movies-search class="flex flex-col mt-2"></movies-search>
+    </div>
+
+    <div class="flex flex-wrap h-[720px] w-[1000px]">
+        <!-- content -->
+        <movies-content class="flex flex-wrap h-[720px] w-[1000px]" [movieData]="movieData"></movies-content>
+    </div>
